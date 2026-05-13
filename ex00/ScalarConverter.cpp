@@ -6,7 +6,7 @@
 /*   By: ldesboui <ldesboui@42angouleme.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/26 10:31:52 by ldesboui          #+#    #+#             */
-/*   Updated: 2026/04/26 16:59:06 by ldesboui         ###   ########.fr       */
+/*   Updated: 2026/05/13 11:02:50 by ldesboui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -158,7 +158,7 @@ void ScalarConverter::convert(std::string literal)
 		printForInt(literal);
 	else
 	{
-		std::cout <<  "cac";
+		std::cout <<  "I dont know" << std::endl;
 	}
 }
 
