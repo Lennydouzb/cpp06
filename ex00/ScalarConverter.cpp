@@ -6,7 +6,7 @@
 /*   By: ldesboui <ldesboui@42angouleme.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/26 10:31:52 by ldesboui          #+#    #+#             */
-/*   Updated: 2026/05/13 11:58:33 by ldesboui         ###   ########.fr       */
+/*   Updated: 2026/05/13 14:17:15 by ldesboui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ static void	printForFloat(std::string literal, int precision)
 static void	printForInt(std::string literal)
 {
 	char *s;
-	long val = std::strtol(literal.c_str(), &s, 10);
+	double val = std::strtod(literal.c_str(), &s);
 	(void)s;
 	std::cout << "char :";
 	if (val < 0 || val > 127)
